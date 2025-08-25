@@ -118,7 +118,7 @@ button {
 
 .contador p {
   font-size: 30px;
-  font-family: "Great Vibes", cursive;
+  font-family: "Times New Roman", Times, serif;
   padding: 10px;
   margin-bottom: 10%;
   margin-top: 10%;
@@ -146,8 +146,8 @@ section {
   width: 100%;
   padding: 5px;
   border-radius: 10px;
-  border: 1px solid #384773;
-  background-color: #384773;
+  border: 1px solid #002f6c;
+  background-color: #002f6c;
   -webkit-animation: shadow-drop-2-center 0.4s
     cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: shadow-drop-2-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
@@ -160,7 +160,7 @@ table {
 }
 
 td {
-  border: 3px solid#384773;
+  border: 3px solid#002f6c;
   border-bottom: none;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -175,7 +175,7 @@ td {
 }
 
 th {
-  border: 3px solid #384773;
+  border: 3px solid #002f6c;
   border-top: none;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -214,7 +214,8 @@ th {
 }
 
 .bienvenida .card {
-  border: 5px ridge #405785;
+  border: 5px ridge #002f6c;
+  color: #ffffff;
 }
 
 .bienvenida h5 {
@@ -419,10 +420,10 @@ th {
   padding: 10px 20px;
   background: linear-gradient(
     180deg,
-    /* Oro claro */ #96b1d5,
-    /* Brillo dorado */ #96b1d5,
-    /* Oro claro */ #56738c,
-    /* Oro medio */ #405785
+    /* Oro claro */ #4294ff,
+    /* Brillo dorado */ #0067ee,
+    /* Oro claro */ #0069c5,
+    /* Oro medio */ #002b81
   );
   position: relative;
   border-radius: 10px;
@@ -503,17 +504,15 @@ h5 {
   text-align: center;
   padding: 5%;
   background: linear-gradient(
-    60deg,
-    #bf7839,
-    /* Dorado oscuro */ #bf8c4e,
-    /* Bronce */ #d9af62,
-    /* Oro medio */ #f2dc99,
-    /* Oro claro */ #f2d680,
-    /* Brillo dorado */ #f2dc99,
-    /* Oro claro */ #d9af62,
-    /* Oro medio */ #bf8c4e,
-    /* Bronce */ #bf7839 /* Dorado oscuro */
+    90deg,
+    #002f6c 0%,
+    /* Azul marino */ #003b85 25%,
+    /* Azul intermedio */ #77b5e9 50%,
+    /* Azul claro */ #bbdcf6 75%,
+    /* Azul muy suave */ #ffffff 100% /* Blanco */
   );
+  color: #ffffff;
+
   background-size: 400% 400%;
   margin-top: 10%;
   margin-bottom: 10%;
@@ -541,7 +540,7 @@ h5 {
 
 .tituloV {
   font-size: 50px;
-  color: black;
+  color: rgb(255, 255, 255);
   font-family: "Great Vibes", cursive;
   margin-bottom: 10px;
 }
@@ -631,23 +630,20 @@ h6 {
 .card {
   margin: 0 auto;
   background: linear-gradient(
-    60deg,
-    #384773,
-    /* Dorado oscuro */ #384773,
-    /* Bronce */ #405785,
-    /* Oro medio */ #7e93b2,
-    /* Oro claro */ #96b1d5,
-    /* Brillo dorado */ #96b1d5,
-    /* Oro claro */ #56738c,
-    /* Oro medio */ #405785,
-    /* Bronce */ #405785 /* Dorado oscuro */
+    180deg,
+    #002f6c 0%,
+    /* Azul marino */ #002f6c 10%,
+    /* Azul intermedio */ #ffffff 50%,
+    /* Azul claro */ #ffffff 75%,
+    /* Azul muy suave */ #ffffff 100% /* Blanco */
   );
+
   background-size: 400% 400%;
   animation: goldShine 6s infinite linear;
   width: 0%;
   height: 250px;
   margin-bottom: 10%;
-  border: 3px ridge #021e73;
+  border: 3px ridge #000b47;
 
   -webkit-animation: shadow-drop-2-center 0.4s
     cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
